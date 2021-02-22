@@ -6,6 +6,9 @@ import ReactChange from './components/R067_onChange';
 import ReactOnKey from './components/R071_OnKey';
 import ReactOnSubmit from './components/R072_onSubmit';
 import ReactRef from './components/R073_ReactRef';
+import ReactCurrying from './components/R074_ReactCurrying';
+import ReactHoc from './components/R075_ReactHoc';
+import ReactContextApi from './components/R077_ContextApi';
 
 
 class App extends React.Component {
@@ -38,6 +41,10 @@ class App extends React.Component {
 
         <ReactOnSubmit />
         <ReactRef/>
+        <ReactCurrying/>
+        <ReactHoc name = 'React200'/>
+        <ReactContextApi />
+
 
       </Fragment>
     );
