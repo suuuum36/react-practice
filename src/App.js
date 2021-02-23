@@ -39,7 +39,7 @@ class App extends React.Component {
 
         {/* <ReactOnKey /> */}
 
-        <ReactOnSubmit />
+        {/* <ReactOnSubmit /> */}
         <ReactRef/>
         <ReactCurrying/>
         <ReactHoc name = 'React200'/>
